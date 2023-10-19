@@ -1,4 +1,4 @@
-import { Item, RootState } from "../redux-store/interfaces";
+import { Item, RootState } from "../interfaces";
 import TodoItem from "./TodoItem";
 import { useSelector } from "react-redux/es/hooks/useSelector";
 

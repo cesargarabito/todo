@@ -1,6 +1,6 @@
 import { useDispatch } from "react-redux";
 import { deleteItem, checkComplete } from "../redux-store/itemSlice";
-import { Item } from "../redux-store/interfaces";
+import { Item } from "../interfaces";
 
 const TodoItem = ({ id, title, selectedColor, completed }: Item) => {
   const dispatch = useDispatch();

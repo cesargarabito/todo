@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useDispatch } from "react-redux";
 import { addItem } from "../redux-store/itemSlice";
 import axios from "axios";
-import ColorOption, { SelectChangeEvent } from "../redux-store/interfaces";
+import ColorOption, { SelectChangeEvent } from "../interfaces";
 
 const AddItem = () => {
   const [value, setValue] = useState<string>("");
